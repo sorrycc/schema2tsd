@@ -1,0 +1,25 @@
+{
+  "name": "schema2tsd",
+  "version": "1.0.0",
+  "description": "Compile schema to ts define.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "schema",
+    "typescript",
+    "tsd"
+  ],
+  "authors": [
+    "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)"
+  ],
+  "license": "MIT",
+  "bin": {
+    "schema2tsd": "cli.js"
+  },
+  "dependencies": {
+    "json-schema-to-typescript": "^9.1.1",
+    "mkdirp": "^1.0.4",
+    "schema-util": "^3.4.6",
+    "yargs-parser": "^20.2.2"
+  }
+}
